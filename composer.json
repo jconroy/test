@@ -1,0 +1,13 @@
+{
+    "require": {
+        "automattic/jetpack-connection": "^1.17",
+        "automattic/jetpack-config": "^1.4",
+        "automattic/jetpack-autoloader": "^2.3"
+    },
+    "autoload": {
+        "classmap": ["includes/"],
+        "psr-4": {
+            "Test\\": ["includes/"]
+        }
+    }
+}
